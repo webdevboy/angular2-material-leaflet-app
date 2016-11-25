@@ -1,5 +1,9 @@
 # angular2-material-leaflet-app
 
+<img width="900" src="src/public/img/s1.png" border="0" />
+
+<img width="900" src="src/public/img/s2.png" border="0" />
+
 >Warning: Make sure you're using the latest version of Node.js and NPM
 
 ### Quick start
