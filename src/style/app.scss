@@ -1,0 +1,32 @@
+// styles in src/style directory are applied to the whole page
+@import '../../node_modules/@angular/material/core/theming/all-theme';
+ 
+@include md-core();
+$app-primary: md-palette($md-light-blue, 500, 100, 700);
+$app-accent:  md-palette($md-pink, A200, A100, A400);
+$app-warn:    md-palette($md-red);
+$app-theme: md-light-theme($app-primary, $app-accent, $app-warn);
+@include angular-material-theme($app-theme);
+ 
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+//colors
+$color_tapa_approx: #777;
+$white: #fff;
+$color_mine_shaft_approx: #333;
+$color_gray_nurse_approx: #676767;
+
+body {
+	background: $white;
+	color: $color_tapa_approx;
+}
+a {
+	color: $color_mine_shaft_approx;
+	text-decoration: none;
+    cursor: pointer;
+	&.footer {
+		color: $color_gray_nurse_approx;
+	}
+}

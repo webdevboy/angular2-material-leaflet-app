@@ -1,0 +1,14 @@
+<header>
+  <md-toolbar color="primary">
+    <img src="img/angular.png" class="logo" alt="logo">
+    <a md-button [routerLink]="['']">Home</a>|
+    <a md-button [routerLink]="['leafmap']">Map</a>|
+    <a md-button [routerLink]="['user']">User</a>
+  </md-toolbar>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<footer>
+  <a [href]="url" class="footer">Angular2 Samples By webdevboy</a>
+</footer>

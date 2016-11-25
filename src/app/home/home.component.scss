@@ -1,0 +1,49 @@
+// component styles are encapsulated and only applied to their components
+h1{
+  color: #1bd409;
+  padding-top: 50px;
+  font-size: 4em;
+}
+
+md-tab-group {
+  background-color: #f5f5f5 !important;
+  md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1;
+    md-tabs-wrapper {
+      background: white;
+    }
+  }
+  h2:first-child {
+    margin-top: 0;
+  }
+}
+
+md-radio-button {
+  margin: 16px;
+}
+form {
+  padding-left: 20px;
+}
+hr {
+  margin-left: -20px;
+  opacity: 0.3;
+}
+p:last-child {
+  padding-bottom: 50px;
+}
+.radioValue {
+  margin-left: 5px;
+  color: #0f9d58;
+  font-weight: bold;
+  padding: 5px;
+}
+img {
+  padding: 15px;
+  width: 128px;
+  height: 128px;
+}
+.ipsum {
+  color: saddlebrown;
+  font-size: 0.9em;
+}
