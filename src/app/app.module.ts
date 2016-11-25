@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { LeafmapComponent } from './leafmap/leafmap.component';
 import { UserComponent } from './user/user.component';
 import { ApiService } from './shared/api.service';
-import { GeocodingService } from "./shared/geocoding.service";
+import { GeocodingService } from './shared/geocoding.service';
 import { routing } from './app.routing';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  radioType: any;
+  radioType: string = 'Banana';
 
   constructor() {
     // Do stuff
@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     console.log('Hello Home');
-    this.radioType = "Banana";
   }
 
 }
